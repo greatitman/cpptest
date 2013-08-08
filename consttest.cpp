@@ -7,6 +7,8 @@ class CONST_TEST
 };
 int main()
 {
+	CONST_TEST* test = new CONST_TEST();
+	delete test;
 	return 0;
 }
 
